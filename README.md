@@ -18,6 +18,6 @@ El éxito se logra al evitar que la pelota pase y marcar puntos. El fracaso ocur
 - Visual Style: El estilo visual combina elementos clásicos del juego original Pong con gráficos modernos. Se busca evocar nostalgia mientras se ofrece una experiencia visual fresca y atractiva. Los efectos visuales y el sonido complementan esta estética, proporcionando una sensación de inmersión y simplicidad.
 
 ## Requisitos
-- **Unity 3D:** Versión por determinar.
+- **Unity 3D:** 2022.3.38f1.
 - **Vuforia SDK:** Integrado en el proyecto para la detección de las tarjetas.
 - **Dispositivo Móvil android:** Con cámara para escanear las tarjetas físicas.
