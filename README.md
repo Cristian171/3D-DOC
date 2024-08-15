@@ -33,8 +33,6 @@ Los jugadores interactúan con el juego a través de tarjetas físicas que son e
 ## User Interface and Feedback
 La interfaz de usuario incluye un marcador de puntos, indicadores visuales para el inicio y final de la partida, y notificaciones en pantalla que guían a los jugadores durante el juego. La pantalla de inicio ofrece opciones como "Iniciar Juego" y "Configuraciones". El feedback se proporciona mediante efectos visuales y sonoros que destacan las acciones importantes, como la puntuación de un punto o el final de la partida.
 
-## Technical Details
-
 ### Engine
 Se ha seleccionado Unity 2022.3.38f1 por su robustez y capacidad para desarrollar aplicaciones de realidad aumentada. Unity permite una fácil integración con el SDK de Vuforia, que se utiliza para la detección y el seguimiento de las tarjetas AR.
 
@@ -42,6 +40,26 @@ Se ha seleccionado Unity 2022.3.38f1 por su robustez y capacidad para desarrolla
 **Vuforia SDK** está integrado en el proyecto para la detección de las tarjetas físicas y su interacción con el entorno virtual.
 ![Texto alternativo](https://github.com/Cristian171/3D-DOC/blob/main/Recursos/inicioG.png?raw=true)
 ![Texto alternativo](https://github.com/Cristian171/3D-DOC/blob/main/Recursos/image.png?raw=true)
+
+graph TD
+    A[Inicio] --> B{¿Start Card detectada?}
+    B --> |Sí| C[Mostrar Menú Interactivo]
+    C --> D{¿Iniciar Juego seleccionado?}
+    D --> |Sí| E[Activar Modo de Juego]
+    E --> F[Desplegar Arena de Pong en AR]
+    F --> G[Comenzar el Juego]
+    G --> H{¿Pelota traspasa la paleta?}
+    H --> |No| I[Continuar Juego]
+    I --> G
+    H --> |Sí| J[Asignar Punto al Oponente]
+    J --> K{¿Partida Finalizada?}
+    K --> |No| G
+    K --> |Sí| L[Mostrar Marcador Final]
+    L --> M[Mostrar Menú de Reinicio]
+    M --> B
+
+    B --> |No| N[Esperar a que la Start Card sea detectada]
+    N --> B
 
 ### Platform Requirements
 El juego está diseñado para dispositivos móviles Android equipados con una cámara que permita escanear las tarjetas físicas, proporcionando una experiencia AR fluida y accesible.
