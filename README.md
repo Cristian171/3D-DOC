@@ -1,7 +1,7 @@
-![image](https://github.com/user-attachments/assets/8790d95f-f0a9-44ea-acfb-a3134eaf362a)# AR Pong
+# AR Pong
 
 ## Descripción General
-Este proyecto comenzó como una iniciativa para explorar las capacidades de la realidad aumentada (AR) en el ámbito de los videojuegos clásicos. No hay un cliente específico; el proyecto es una exploración académica y de desarrollo personal. El objetivo es crear una experiencia inmersiva y accesible de Pong utilizando AR, donde los jugadores interactúan con el juego mediante tarjetas físicas.
+Este proyecto comenzó como una iniciativa para explorar las capacidades de la realidad aumentada (AR) en el ámbito de los videojuegos clásicos.EL cliente especifico es una persona con negocio que quiera hacer promociones para ganar recompensas deltro del local con una experiencia AR; el proyecto es una exploración académica y de desarrollo personal. El objetivo es crear una experiencia inmersiva y accesible de Pong utilizando AR, donde los jugadores interactúan con el juego mediante tarjetas físicas.
 
 ## Características del Juego
 - **Start Card:** Al detectar esta tarjeta, el juego entra en modo de inicio mostrando un menú interactivo en AR.
