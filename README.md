@@ -1,4 +1,4 @@
-# AR Pong
+![image](https://github.com/user-attachments/assets/8790d95f-f0a9-44ea-acfb-a3134eaf362a)# AR Pong
 
 ## Descripción General
 Este proyecto comenzó como una iniciativa para explorar las capacidades de la realidad aumentada (AR) en el ámbito de los videojuegos clásicos. No hay un cliente específico; el proyecto es una exploración académica y de desarrollo personal. El objetivo es crear una experiencia inmersiva y accesible de Pong utilizando AR, donde los jugadores interactúan con el juego mediante tarjetas físicas.
@@ -41,7 +41,7 @@ Se ha seleccionado Unity 2022.3.38f1 por su robustez y capacidad para desarrolla
 ### SDK
 **Vuforia SDK** está integrado en el proyecto para la detección de las tarjetas físicas y su interacción con el entorno virtual.
 ![Texto alternativo](https://github.com/Cristian171/3D-DOC/blob/main/Recursos/inicioG.png?raw=true)
-
+![Texto alternativo](https://github.com/Cristian171/3D-DOC/blob/main/Recursos/image.png?raw=true)
 
 ### Platform Requirements
 El juego está diseñado para dispositivos móviles Android equipados con una cámara que permita escanear las tarjetas físicas, proporcionando una experiencia AR fluida y accesible.
