@@ -41,7 +41,8 @@ Se ha seleccionado Unity 2022.3.38f1 por su robustez y capacidad para desarrolla
 ![Texto alternativo](https://github.com/Cristian171/3D-DOC/blob/main/Recursos/inicioG.png?raw=true)
 ![Texto alternativo](https://github.com/Cristian171/3D-DOC/blob/main/Recursos/image.png?raw=true)
 
-graph TD
+## Diagrama
+
     A[Inicio] --> B{¿Start Card detectada?}
     B --> |Sí| C[Mostrar Menú Interactivo]
     C --> D{¿Iniciar Juego seleccionado?}
@@ -50,16 +51,11 @@ graph TD
     F --> G[Comenzar el Juego]
     G --> H{¿Pelota traspasa la paleta?}
     H --> |No| I[Continuar Juego]
-    I --> G
-    H --> |Sí| J[Asignar Punto al Oponente]
+    H --> |Sí| J[Asignar Punto al Jugador]
     J --> K{¿Partida Finalizada?}
-    K --> |No| G
     K --> |Sí| L[Mostrar Marcador Final]
     L --> M[Mostrar Menú de Reinicio]
-    M --> B
-
     B --> |No| N[Esperar a que la Start Card sea detectada]
-    N --> B
 
 ### Platform Requirements
 El juego está diseñado para dispositivos móviles Android equipados con una cámara que permita escanear las tarjetas físicas, proporcionando una experiencia AR fluida y accesible.
